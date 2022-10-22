@@ -16,9 +16,6 @@
 * python-pandas >= 0.23.4
 * pacman-contrib >= 1.1.0
 
-### PKGBUILD
-
-* <a href="https://github.com/a6smile/ArchLinux-Mirrorlist-Manager">https://github.com/a6smile/ArchLinux-Mirrorlist-Manager</a>
 
 ### Screenshot
 
