@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author>Rizwan Hasan</author>
+ <author>Anom Wijaya</author>
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
@@ -643,7 +643,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#009dec;&quot;&gt;Arch&lt;/span&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#5a5a5a;&quot;&gt;Linux Mirrorlist Manager&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#4f4f76;&quot;&gt;A Qt frontend for easy mirrorlist management.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#009dec;&quot;&gt;Arch&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#5a5a5a;&quot;&gt;Linux Mirrorlist Manager&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:500; color:#4f4f76;&quot;&gt;A Qt frontend for easy mirrorlist management.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="wordWrap">
        <bool>true</bool>
@@ -856,10 +856,10 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="labelMailLogo">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>100</y>
-        <width>31</width>
-        <height>31</height>
+        <x>325</x>
+        <y>105</y>
+        <width>18</width>
+        <height>18</height>
        </rect>
       </property>
       <property name="text">
@@ -882,7 +882,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;rizwan.hasan486&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;@&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;a6smile&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;@&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="labelAboutDistro">
@@ -914,7 +914,7 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Version&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 1.3.2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Version&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; 1.3.2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="labelCopyright">
@@ -927,36 +927,10 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Copyright &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;©&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; 2018 Rizwan Hasan&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Copyright &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;©&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; 2022 a6smile enterprises&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
-   </widget>
-   <widget class="QPushButton" name="pushButtonContact">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>10</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string> Contact</string>
-    </property>
-    <property name="icon">
-     <iconset resource="icon/resources.qrc">
-      <normaloff>:/button/mail.png</normaloff>:/button/mail.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>22</width>
-      <height>22</height>
-     </size>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButtonSourcecode">
     <property name="geometry">
@@ -1017,7 +991,6 @@ p, li { white-space: pre-wrap; }
      <string>TextLabel</string>
     </property>
    </widget>
-   <zorder>pushButtonContact</zorder>
    <zorder>pushButtonSourcecode</zorder>
    <zorder>pushButtonQuit</zorder>
    <zorder>labelHeader</zorder>
