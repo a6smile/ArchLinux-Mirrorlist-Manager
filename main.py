@@ -47,8 +47,8 @@ class MainWindow(QMainWindow):
         self.comboBoxEntry = None
         self.comboBoxNumberEntry = None
         self.asroot = None
-        self.contactURL = 'https://github.com/Rizwan-Hasan'
-        self.sourcecodeURL = 'https://github.com/Rizwan-Hasan/ArchLinux-Mirrorlist-Manager'
+        #self.contactURL = 'https://github.com/a6smile'
+        self.sourcecodeURL = 'https://github.com/a6smile/ArchLinux-Mirrorlist-Manager'
 
         # Icon's Variables ↓
         self.icon = QIcon(':icon/icon.png')
@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
         self.pushButtonSaveAs.clicked.connect(lambda: self.saveFileDialog())
         self.pushButtonGenerate.clicked.connect(lambda: self.generateButtonAction())
         self.pushButtonRankmirrors.clicked.connect(lambda: self.rankmirrorsButtonAction())
-        self.pushButtonContact.clicked.connect(lambda: self.browserContact())
+        #self.pushButtonContact.clicked.connect(lambda: self.browserContact())
         self.pushButtonSourcecode.clicked.connect(lambda: self.browserSourcecode())
 
         # Other Actions↓
@@ -250,13 +250,13 @@ class MainWindow(QMainWindow):
         self.pushButtonRankmirrors.clicked.connect(lambda: self.rankmirrorsButtonAction())
 
     # Contact Button Action ↓
-    def browserContact(self):
-        try:
-            self.pushButtonContact.clicked.disconnect()
-        except (AttributeError, TypeError):
-            pass
-        webbrowser.open(self.contactURL)
-        self.pushButtonContact.clicked.connect(lambda: self.browserContact())
+    #def browserContact(self):
+    #    try:
+    #        self.pushButtonContact.clicked.disconnect()
+    #    except (AttributeError, TypeError):
+    #        pass
+    #    webbrowser.open(self.contactURL)
+    #    self.pushButtonContact.clicked.connect(lambda: self.browserContact())
 
     # Sourcecode Button Action ↓
     def browserSourcecode(self):
